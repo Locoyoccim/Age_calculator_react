@@ -1,0 +1,6 @@
+a {
+  @apply text-blue-600 underline-offset-1;
+}
+.pie {
+  @apply text-xs text-center w-screen;
+}

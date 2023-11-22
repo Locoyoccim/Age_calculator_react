@@ -1,0 +1,33 @@
+.section {
+  @apply bg-white w-[90%] h-[480px]  py-8 px-5 rounded-t-3xl rounded-bl-3xl rounded-br-[25%] sm:w-[70%] sm:px-14;
+}
+.born_info {
+  @apply mt-2 w-20 h-12 border-gray-400 border-2 border-solid rounded-lg focus:outline-none font-extrabold text-black pl-2;
+}
+.form {
+  @apply flex justify-between mx-2 sm:w-[70%];
+}
+.getInfo {
+  @apply font-semibold text-gray-400 text-sm w-[90px];
+}
+.button_container {
+  @apply h-24 grid place-items-center sm:justify-end;
+}
+.button {
+  @apply bg-Purple h-14 w-14 flex justify-center items-center rounded-full z-20 cursor-pointer;
+}
+.arrow {
+  @apply w-6 font-bold;
+}
+.hr {
+  @apply border-opacity-25 border-solid border-Purple border-[.5px] w-[297.5px] absolute translate-y-12 z-0 sm:w-[85%];
+}
+.detail {
+  @apply font-extrabold text-[50px] h-auto pl-3;
+}
+.age_result {
+  @apply text-Purple font-extrabold h-auto text-[50px] sm:text-7xl;
+}
+.error_empty_place {
+  @apply text-Light_red text-[11px] p-0 m-0 leading-[12px] hidden mt-1;
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Age calculator app</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <div id="age_form">
+        <form action="submit">
+          <label for="submit"
+            >DAY
+            <input
+              type="number"
+              placeholder="DD"
+              name="born_day"
+              class="born_day"
+            />
+          </label>
+          <label for="submit"
+            >MONTH
+            <input
+              type="number"
+              placeholder="MM"
+              name="born_month"
+              class="born_month"
+            />
+          </label>
+          <label for="submit"
+            >YEAR
+            <input
+              type="number"
+              placeholder="YYYY"
+              name="born_year"
+              class="born_year"
+            />
+          </label>
+          <div id="button_send">
+            <button type="submit">
+              <img src="/assets/images/icon-arrow.svg" alt="icon-arrow" />
+            </button>
+          </div>
+        </form>
+      </div>
+      <div id="user_results">
+        <div>
+          <p class="age_result" id="user_year_result">--</p>
+          <span>years</span>
+        </div>
+        <div>
+          <p class="age_result" id="user_month_result">--</p>
+          <span>months</span>
+        </div>
+        <div>
+          <p class="age_result" id="user_day_result">--</p>
+          <span>days</span>
+        </div>
+      </div>
+    </section>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div>
+  </body>
+</html>
